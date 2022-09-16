@@ -50,8 +50,9 @@ class Level:
   def run(self):
     self.visible_sprites.custom_draw(self.player)
     self.visible_sprites.update()
-    debug(f'Pos: (x: {self.player.rect.centerx}, y: {self.player.rect.centery})')
-    debug(f'State: {self.player.status}', x=10,y=33)
+    debug('|--**DEBUG**--|')
+    debug(f'Pos: (x: {self.player.rect.centerx}, y: {self.player.rect.centery})', x=10, y=33)
+    debug(f'State: {self.player.status}', x=10,y=56)
 
 
 class YSortCameraGroup(pygame.sprite.Group):
