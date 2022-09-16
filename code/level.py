@@ -8,6 +8,8 @@ from random import choice
 
 PLAYER_START_POS = (1300, 2000)
 
+# TODO: ADD WEAPONS
+
 class Level:
   def __init__(self):
     self.display_surface = pygame.display.get_surface()
