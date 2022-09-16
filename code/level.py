@@ -9,6 +9,7 @@ from random import choice
 PLAYER_START_POS = (1300, 2000)
 
 # TODO: ADD WEAPONS
+# test
 
 class Level:
   def __init__(self):
